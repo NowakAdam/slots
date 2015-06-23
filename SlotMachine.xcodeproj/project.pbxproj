@@ -11,9 +11,9 @@
 		66C6492B1B394EE30056D5A7 /* SlotMachine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66C649291B394EE30056D5A7 /* SlotMachine.xcdatamodeld */; };
 		66C6492D1B394EE30056D5A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C6492C1B394EE30056D5A7 /* ViewController.swift */; };
 		66C649301B394EE30056D5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C6492E1B394EE30056D5A7 /* Main.storyboard */; };
-		66C649321B394EE30056D5A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C649311B394EE30056D5A7 /* Images.xcassets */; };
 		66C649351B394EE30056D5A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66C649331B394EE30056D5A7 /* LaunchScreen.xib */; };
 		66C649411B394EE30056D5A7 /* SlotMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C649401B394EE30056D5A7 /* SlotMachineTests.swift */; };
+		66C6494C1B394F9D0056D5A7 /* slot.png in Resources */ = {isa = PBXBuildFile; fileRef = 66C6494B1B394F9D0056D5A7 /* slot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +33,11 @@
 		66C6492A1B394EE30056D5A7 /* SlotMachine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlotMachine.xcdatamodel; sourceTree = "<group>"; };
 		66C6492C1B394EE30056D5A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66C6492F1B394EE30056D5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		66C649311B394EE30056D5A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66C649341B394EE30056D5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		66C6493A1B394EE30056D5A7 /* SlotMachineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66C6493F1B394EE30056D5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66C649401B394EE30056D5A7 /* SlotMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineTests.swift; sourceTree = "<group>"; };
+		66C6494B1B394F9D0056D5A7 /* slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,6 @@
 				66C649271B394EE30056D5A7 /* AppDelegate.swift */,
 				66C6492C1B394EE30056D5A7 /* ViewController.swift */,
 				66C6492E1B394EE30056D5A7 /* Main.storyboard */,
-				66C649311B394EE30056D5A7 /* Images.xcassets */,
 				66C649331B394EE30056D5A7 /* LaunchScreen.xib */,
 				66C649291B394EE30056D5A7 /* SlotMachine.xcdatamodeld */,
 				66C649251B394EE30056D5A7 /* Supporting Files */,
@@ -93,6 +92,7 @@
 		66C649251B394EE30056D5A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				66C6494A1B394F9D0056D5A7 /* slotsAssets */,
 				66C649261B394EE30056D5A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +113,14 @@
 				66C6493F1B394EE30056D5A7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66C6494A1B394F9D0056D5A7 /* slotsAssets */ = {
+			isa = PBXGroup;
+			children = (
+				66C6494B1B394F9D0056D5A7 /* slot.png */,
+			);
+			path = slotsAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66C649301B394EE30056D5A7 /* Main.storyboard in Resources */,
+				66C6494C1B394F9D0056D5A7 /* slot.png in Resources */,
 				66C649351B394EE30056D5A7 /* LaunchScreen.xib in Resources */,
-				66C649321B394EE30056D5A7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +284,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -295,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,7 +329,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -333,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -343,8 +353,10 @@
 		66C649451B394EE30056D5A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = SlotMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,8 +365,10 @@
 		66C649461B394EE30056D5A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "-";
 				INFOPLIST_FILE = SlotMachine/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
