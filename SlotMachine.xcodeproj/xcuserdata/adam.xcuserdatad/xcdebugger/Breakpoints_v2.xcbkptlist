@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SlotMachine/ViewController.swift"
+            timestampString = "456841659.0971"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachine.ViewController.slots.setter : Swift.Array&lt;Swift.Array&lt;SlotMachine.Slot&gt;&gt;"
+                  moduleName = "SlotMachine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adam/Documents/SlotMachine/SlotMachine/ViewController.swift"
+                  timestampString = "456842355.936982"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachine.ViewController.slots.materializeForSet : Swift.Array&lt;Swift.Array&lt;SlotMachine.Slot&gt;&gt;"
+                  moduleName = "SlotMachine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adam/Documents/SlotMachine/SlotMachine/ViewController.swift"
+                  timestampString = "456842355.937317"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachine.ViewController.init (SlotMachine.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; SlotMachine.ViewController"
+                  moduleName = "SlotMachine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adam/Documents/SlotMachine/SlotMachine/ViewController.swift"
+                  timestampString = "456842355.93879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "470">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlotMachine.ViewController.init (SlotMachine.ViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; SlotMachine.ViewController"
+                  moduleName = "SlotMachine"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/adam/Documents/SlotMachine/SlotMachine/ViewController.swift"
+                  timestampString = "456842355.939108"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
