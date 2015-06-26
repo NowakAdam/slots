@@ -113,6 +113,9 @@ class ViewController: UIViewController {
     }
     
     func spinButtonPressed (button: UIButton){
+        
+        if currentBet > 0{
+        
         removeSlotImageViews()
         slots = Factory.createSlots()
         setupSecondContainer(self.seconContainer)
@@ -122,7 +125,10 @@ class ViewController: UIViewController {
         credits += winnings
         currentBet = 0
         updateMainView()
-        
+        }
+        else {
+            showAlertWithText(header: "Bet Error", message: "You must bet something")
+        }
         
     }
     
@@ -316,12 +322,24 @@ class ViewController: UIViewController {
         self.winnerPaidLabel.text = "\(winnings)"
     }
     
-    func showAlertWithText (header: String = "Warning", message: String){
+    func showAlertWithText (header: String = "Warning", message: String) {
         
-        var alert = UIAlertController(title: header, message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-        self.presentViewController(alert, animated: true, completion: nil)
+        var systemVersion = UIDevice.currentDevice().systemVersion;
+        var sysToInt = "\(systemVersion)".toInt()
+        if sysToInt < 8 {
+            let alert = UIAlertView()
+            alert.title = header
+            alert.message = message
+            alert.addButtonWithTitle("OK iOS \(systemVersion)")
+            alert.show()
+        }
+        else {
+            var alert = UIAlertController(title: header, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+            alert.addAction(UIAlertAction(title: "OK \(systemVersion)", style: UIAlertActionStyle.Default, handler: nil))
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
     }
+
     
     
 //end helpers
