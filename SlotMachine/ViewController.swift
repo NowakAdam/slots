@@ -82,14 +82,14 @@ class ViewController: UIViewController {
             showAlertWithText(header: "No more Credits", message: "Reset Game Please")
         }
         else {
-            if currentBet < 5 {
+            if currentBet < 25 {
                 currentBet += 1
                 credits -= 1
                 updateMainView()
             
             }
             else {
-                showAlertWithText(message: "You can only bet 5 credits at a time")
+                showAlertWithText(message: "You can only bet 25 credits at a time")
             }
         }
     }
@@ -107,7 +107,7 @@ class ViewController: UIViewController {
                 updateMainView()
             }
             else {
-                showAlertWithText(message: "You can only bet 5 credits at a time")
+                showAlertWithText(message: "You can only bet 25 credits at a time")
             }
         }
     }
